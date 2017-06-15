@@ -205,6 +205,9 @@ public class MemberController {
 		List<Ranking> rankingI = rankingService.searchI();
 		model.addAttribute("rankingI", rankingI);
 		
+		List<Suyo> suyoCountList = suyoService.getSuyoCountAll();
+		model.addAttribute("suyoCountList", suyoCountList);
+		
 		model.addAttribute("rankingBoardContent", "ranking_board/listBoard.jsp");
 		
 //		익명게시판

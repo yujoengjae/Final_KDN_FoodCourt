@@ -483,7 +483,7 @@ function openpopup(){
 </div>
 
 <footer id="subfooter" class="clearfix" style="background-color: #222222">
-	<div class="container">
+	<div class="container" style="color:#D8D8D8;">
 		<div class="row">
 			<div class="col-md-3">
 				<p style="font-size: 18px; color:white;">
